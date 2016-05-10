@@ -1,0 +1,346 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+
+}
+
+.gresk {
+    background-image: url('../pictures/Best-of-Heaven-Wallpaper.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
+
+html table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forside h1 {
+    color: white;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    width: 6.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forside h2 {
+    color: white;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    width: 8.25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.olympus li1 img {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.olympus{
+    width: 500px;
+    height: 400px;
+    padding: 4px ;
+    float: right;
+    margin-right: 40px;
+    background-color: white;
+    margin-top: -400px;
+    margin-right: 100px;
+}
+
+.info{
+    height: 500px;
+    width: 500px;
+    padding: 3px;
+    margin-left: 70px;
+    margin-top: -30px;
+
+}
+
+.ofring{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    padding: 4px;
+    margin-top: -220px;
+    margin-left: 400px;
+    
+}
+
+.ofring li1 img{
+    width: 300px;
+    height: auto;
+}
+
+.inform{
+    background-color: white;
+}
+
+.guddommer h3 {
+    color: white;
+    font-family: Helvetica Neue;
+    width: 480px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+.verdensrommet h3 {
+    color: white;
+    font-family: Helvetica Neue;
+    width: 500px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+#årstall{
+    padding: 1px;
+}
+
+#organisering{
+    padding: 1px;
+}
+
+#prester{
+    padding: 1px;
+}
+
+
+#milk{
+    width: 100%;
+    height: 400px;
+
+}
+
+#milk li1 img {
+    width: 320px;
+    height: auto;
+    margin-left: 550px;
+    margin-top: 0;
+}
+
+#milk h3 {
+    color: white;
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    width: 28.5em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hercules{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    padding: 4px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#herc li1 img{
+       width: 200px;
+       height: auto;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+#herc p {
+    color: black;
+    font-family: Helvetica Neue;
+    width: 10em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#melk{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    padding: 4px;
+    margin-left: 500px;
+    margin-top: -308px;
+    
+}
+
+#melk li1 img{
+       width: 200px;
+       height: auto;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+#melk p {
+    color: black;
+    font-family: Helvetica Neue;
+    width: 10em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#natt{
+    width: 150px;
+    height: 300px;
+    background-color: white;
+    padding: 4px;
+    margin-left: 800px;
+    margin-top: -308px;
+    
+}
+
+#natt li1 img{
+       width: 150px;
+       height: auto;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+#natt p {
+    color: black;
+    font-family: Helvetica Neue;
+    width: 10em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#vaknet{
+    width: 150px;
+    height: 300px;
+    background-color: white;
+    padding: 4px;
+    margin-left: 1050px;
+    margin-top: -308px;
+    
+}
+
+#vaknet li1 img{
+       width: 150px;
+       height: auto;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+#vaknet p {
+    color: black;
+    font-family: Helvetica Neue;
+    width: 10em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#milk h2 {
+    color: black;
+    font-family: Helvetica Neue;
+    width: 12em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#androm {
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    padding: 4px;
+    margin-left: 100px;
+}
+
+#androm li1 img{
+    width: 600px;
+    height: auto;
+}
+
+.verdensrommet h4{
+ color: white;
+ font-weight: 300;
+ width: 300px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#androm h2{
+    color: black;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+}
+
+.kentauren{
+    background-color: white;
+}
+
+#kentaur{
+    background-color: white;
+    width: 500px;
+    height: 530px;
+    padding: 4px;
+    float: right;
+    margin-top: -505px;
+    margin-right: 100px; }
+
+#kentaur li1 img{
+    width: 500px;
+    height: auto;
+}
+
+#kentaur h2{
+    color: black;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+}
+
+.liste{
+    margin-left: 50px;
+    width: 200px;
+    height: 470px;
+    padding: 20px;
+    border: solid 1px black;
+}
+
+.zeus{
+    width: 350px;
+    height: 410px;
+    background-color: white;
+    float: right;
+    margin-top: -450px;
+    margin-right: 100px; }
+#zevs{
+    padding: 20px;
+}
+
+.zeus li1 img{
+    width: 200px;
+    height: auto;
+    margin-left: 75px;
+}
+
+.poseidon {
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    float: right;
+    margin-right: 600px;
+    margin-top: -430px;
+    padding: 4px;
+}
+.poseidon li1 img{
+    width: 450px;
+    height: auto;
+}

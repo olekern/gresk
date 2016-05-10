@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Gresk mytologi | astronomi</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script type="text/javascript">
+            function showonlyone(thechosenone) {
+
+                $('.newboxes').each(function(index) {
+
+                    if ($(this).attr("id") == thechosenone) {
+
+                        $(this).show();
+
+                    } else {
+
+                        $(this).hide();
+
+                    }
+
+                });
+
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <div class="gresk">
+            <table>
+
+                <tr>
+
+
+                    <td>
+
+                        <div style="border: 1px solid blue; background-color: #99CCFF; padding: 5px; width: 10em;">
+
+                             <a id="myHeader1" href="javascript:showonlyone('forside');" style="text-decoration:none;">Gresk mytologi</a>
+
+                        </div>
+
+
+                    </td>
+
+                    <td>
+
+                        <div style="border: 1px solid blue; background-color: #99CCFF; padding: 5px; width: 10em;">
+
+                             <a id="myHeader2" href="javascript:showonlyone('guder');" style="text-decoration:none;">Gudene</a>
+
+                        </div>
+
+
+                    </td>
+                    
+                    <td>
+
+                        <div style="border: 1px solid blue; background-color: #99CCFF; padding: 5px; width: 10em;">
+
+                             <a id="myHeader3" href="javascript:showonlyone('galakser');" style="text-decoration:none;">Verdensrommet</a>
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div style="border: 1px solid blue; background-color: #99CCFF; padding: 5px; width: 10em;">
+
+                             <a id="myHeader4" href="javascript:showonlyone('milk');" style="text-decoration:none;">Melkeveien</a>
+
+                        </div>
+
+
+                    </td>
+
+                    
+
+                </tr>
+
+            </table>
+
+            <div class="newboxes" id="forside">
+                <div class="forside">
+                    <h1>Gresk mytologi</h1>
+                    <h2>2000 fvt. - 300 evt.</h2>
+                    <div class="info">
+                        <div class="inform" id="årstall">
+                            <p>Gresk mytologi er en religion som ble utøvet i Hellas mellom år 2000 fvt. og 300 evt.</p>
+                        </div>
+                        <div class="inform" id="organisering">
+                            <p>Den hadde ingen klar organisatorisk struktur. Med andre ord var det ingen institusjon som sørget for å utbre den, eller å passe på at de religiøse hadde riktig lære.</p>
+                        </div>
+                        <div class="inform" id="prester">
+                        <p>  Det fantes noen "prester", men disse ble ikke gitt noen særskilt stilling i samfunnet, slik andre religiøse ledere ofte har fått.</p>    
+                        </div>
+                        
+                    </div>
+                    <div class="olympus">
+                        <li1>
+                        <img src="./pictures/olympos3.jpg">
+                    </li1>
+                        <p>Olympus er det høyeste fjellet i Hellas og er derfor blitt en sentral del av den greske mytologien. Dette er hjemmet til de tolv mest innflytelsesrike gudene. </p>
+                    </div>
+                    <div class="ofring">
+                        <li1>
+                        <img src="./pictures/The_Parthenon_in_Athens.jpg">
+                    </li1>
+                    <p>Ofring er et sentralt rituale innenfor gresk mytologi. Man ofrer eksempelvis mat for å tilfredstille gudene. Ofringen foregikk ofte i templer, som er gudshusene innen gresk mytologi.</p>
+                    </div>
+                </div>
+                <script>
+                    function showAmount(newAmount) {
+                        document.getElementById('amount').innerHTML = newAmount;
+                    }
+                </script>
+            </div>
+
+            <div class="newboxes" id="guder">
+                <div class="guddommer">
+                    <h3>Det er så mange som 370 guddommeligheter innen den greske mytologien. Kun tolv av disse bor på Olympus. </h3>
+                    <div class="liste">
+                         <li>
+                    <p>De tolv "olympianerne" er:</p>
+                    <p>Zevs</p>
+                    <p>Hera</p>
+                    <p>Poseidon</p>
+                    <p>Demeter</p>
+                    <p>Athene</p>
+                    <p>Apollon</p>
+                    <p>Artemis</p>
+                    <p>Ares</p>
+                    <p>Afrodite</p>
+                    <p>Hefaistos</p>
+                    <p>Hermes</p>
+                    <p>Dionysos</p>
+                        
+                    </li>
+                        
+                    </div>
+                    
+                    <div class="zeus" id="zevs">
+                        <li1>
+                        <img src="./pictures/zeus-final-low.jpg">
+                    </li1>
+                    <p>Zevs var den mektigste guden innen gresk mytologi. Han var himmelgud, noe som også ga han rollen som værgud. På bildet over er han illustrert med en lynbolt, som han brukte som våpen. Til ære for Zevs begynte grekerne, i år 776 fvt., å avholde de olympiske leker. </p>
+                    </div>
+                    <div class="poseidon">
+                        <li1>
+                        <img src="./pictures/poseidon.jpg">
+                    </li1>
+                        <p>Poseidon var havets gud. Han var Zevs sin bror og ble tildelt havet av ham, som sitt eget område.  Poseidon kunne skape bølger og tsunamier, men også roe havet ned. Hans evner ble brukt som forklaring for hvorfor stormer etc. oppstår.  </p>
+                    </div>
+                </div>
+                <script>
+                    function showAmount1(newAmount1) {
+                        document.getElementById('amount1').innerHTML = newAmount1;
+                    }
+                </script>
+
+            </div>
+            
+            <div class="newboxes" id="galakser">
+                <div class="verdensrommet">
+                    <h3>Grekerne kombinerte troen på en skjult virkelighet (gudene), med det de kunne observere på stjernehimmelen. Mange av navnene til de forskjellige stjernebildene er hentet fra gresk mytologi. Blant dem finner vi Andromeda og Kentauren.</h3>
+                    <h4>Katasterismoi = stjernebilder på gresk</h4>
+                    <div class="andromeda" id="androm">
+                        <li1>
+                        <img src="./pictures/andromeda_constellation_flyover___video_by_grantpb-d7waupk.png">
+                    </li1>
+                        <h2>Andromeda</h2>
+                        <p>Andromeda hadde en mor, som kom til fare ved å si at datteren hennes var penere enn nereidene(havnymfer). Poseidon var på dette tidspunktet gift med en nereide og ble derfor svært sur. Han lenket derfor familien til Andromeda fast til noen steiner og spiddet dem til døde. Til spott og spe gav han dem en plass på stjernehimmelen. </p>
+                    </div>
+                    <div class="kentauren" id="kentaur">
+                        <li1>
+                        <img src="./pictures/centaurus.jpg">
+                    </li1>
+                        <h2>Kentauren</h2>
+                        <p>Mens en kentaur (halvt menneske, halvt hest) skulle underholde Zevs sin sønn, Herakles, mistet han en giftig pil på foten sin. Kentauren, som het Chiron, var egentlig udødelig, men mistet denne egenskapen på grunn av giften i pilen. Da han døde ble han plassert på stjernehimmelen for å "leve videre".</p>
+                    </div>
+                </div>
+                <script>
+                    function showAmount4(newAmount4) {
+                        document.getElementById('amount4').innerHTML = newAmount4;
+                    }
+                </script>
+
+            </div>
+            <div class="newboxes" id="milk">
+                <div class ="milkyway">
+                    <h3>Navnet "Melkeveien" er idag brukt over hele verden, men hvor kommer det egentlig fra? Historien er gresk og lyder som følger:</h3>
+                        <div class="hercules" id="herc">
+                            <li1>
+                        <img src="./pictures/Bilde1.png">
+                    </li1>
+                        <p>Herakles er sønn av Zevs og Alkmene.</p>
+                        </div>
+                        <div class"brystmelk" id="melk">
+                            <li1>
+                        <img src="./pictures/DSCN0490.jpg">
+                    </li1>
+                        <p>Zevs ønsket at hans kone Hera skulle mate Herakles med brystmelk da han var et spedbarn. Dette ville ikke Hera.</p>
+                        </div>
+                        <div class"sovn" id="natt">
+                            <li1>
+                        <img src="./pictures/zeus-final-low.jpg">
+                    </li1>
+                        <p>Zevs la Herakles inntil Hera sitt bryst for å mates, mens hun sov. </p>
+                        </div>
+                        <div id="vaknet">
+                            <li1>
+                        <img src="./pictures/hera.jpg">
+                    </li1>
+                        <p>Hera våknet og rev Herakles bort fra brystet hennes. Noen dråper melk rant ut og dette ble da til melkeveien. </p>
+                        </div>
+                        <h2>Scenen er blitt illustrert slik:</h2>
+                    <li1>
+                        <img src="./pictures/Jacopo_Tintoretto_-_The_Origin_of_the_Milky_Way_-_Yorck_Project.jpg">
+
+                    </li1>
+                </div>
+                <script>
+                    function showAmount3(newAmount3) {
+                        document.getElementById('amount3').innerHTML = newAmount3;
+                    }
+                </script>
+            </div>
+        </div>
+
+    </body>
+
+</html>
